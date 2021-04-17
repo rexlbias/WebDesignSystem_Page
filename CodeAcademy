@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+  </head>
+  <link rel="stylesheet" href="./styles.css">
+  
+  
+  <body>
+<h1>Website Design System Project Code Academy</h1>
+
+<div class="container">
+  <h2 class="container-title">C.S.S. Color Scheme</h2>
+  <div class="color-container">
+    <div class="color-panel splendor-purple">
+      <p class="color-name">Splendor Purple</p>
+      <p class="color-hex">#ae91fb</p>
+      </div>
+      <div class="color-panel mainly-red">
+        <p class="color-name">Mainly Red</p>
+        <p class="color-hex">#ba2e2e</p>
+       </div>
+       <div class="color-panel shaded-blue">
+         <p class="color-name">Shaded Blue</p>
+         <p class="color-hex">#2e7eba</p>
+       </div>
+       <div class="color-panel yellow">
+         <p class="color-name">Yellow</p>
+         <p class="color-hex">#e4f209</p>
+       </div>
+       <div class="color-panel black">
+        <p class="color-name">Black</p>
+        <p class="color-hex">#000000</p> 
+       </div>
+       <div class="color-panel orange">
+         <p class="color-name">Orange</p>
+         <p class="color-hex">#f28a09</p>
+       </div>
+    </div>
+</div>
+<div class="container">
+  <h2 class="container-title">Fonts Scheme</h2>
+  <div class="font-container"> 
+    <p class="font-family lato">Lato</p>
+    <p class="regular lato">The sun will continue to rise and life will persit.</p>
+    <p class="italic lato">The sun will continue to rise and life will persit.</p>
+    <p class="bold lato">The sun will continue to rise and life will persit.</p>
+  </div>
+  <div class="font-family"><p class="font-family zen-dots">Zen Dots</p>
+    <p class="regular zen-dots">The sun will continue to rise and life will persit.</p>
+    <p class="italic zen-dots">The sun will continue to rise and life will persit.</p>
+    <p class="bold zen-dots">The sun will continue to rise and life will persit.</p>
+  </div>
+   <div class="font-family"><p class="font-family raleway">Railway</p>
+    <p class="regular railway">The sun will continue to rise and life will persit.</p>
+    <p class="italic railway">The sun will continue to rise and life will persit.</p>
+    <p class="bold railway">The sun will continue to rise and life will persit.</p>
+  </div>
+</div>
+<div class="container">
+    <h2 class="container-title">Text Styles</h2>
+    <div class="text">
+      <h1>CSS: How Elements are Displayed</h1>
+      <p class="css">p { <br>font-family: Arial;<br> color: purple;<br> font-weight: 500;<br>}</p>
+      <br>
+      <p class="css1"> .container {<br> border: 5px dotted black; <br> margin: 10px auto; <br> padding: 10px 10px;<br>}</p>
+      <p class="css2">.color-panel {<br>display: inline-block;<br>width: 100%;<br>
+text-align: center;<br>
+}  
+      </p>
+    </div>
+  </div>
+  </body>
+</html>
+
+
+
+body{
+    font-family: "New Times", sans-serif;
+    margin: 0 15%;
+    }
+    
+    .container {
+    border: 3px solid black;
+    padding: 10px 10px;
+    margin: 10px auto;
+    }
+    .container-title {
+    text-shadow: 5px 5px 4px #000000;
+    } 
+    
+    .color-container {
+    width: 100%;
+    }
+    
+    .color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    }
+    
+    .splendor-purple {
+    background-color: #ae91fb;
+    }
+    
+     .mainly-red {
+     background-color: #ba2e2e;
+     color: white;  
+     }
+    
+     .shaded-blue {
+       background-color: #2e7eba;
+     }
+    
+     .yellow {
+       background-color: #e4f209;
+     }
+     
+     .black {
+      background-color: black;
+      color: white;
+     }
+    
+     .orange {
+      background-color: #f28a09;
+     }
+     .lato {
+       font-family: lato;
+     }
+     .zen-dots {
+       font-family: "zen dots";
+     }
+     .railway {
+       font-family: railway;
+     }
+    
+     .font-panel {
+      width: 50%;
+      display: inline-block;
+     }
+    
+    .font-family {
+      font-weight: bold;
+     }
+    
+     .font-family:first-letter {
+       font-size: 200%; 
+     }
+    
+     .regular {
+       font-style: normal;
+       font-weight: 200;
+     }
+    
+     .italic {
+       font-style: italic;
+     }
+    
+     .bold {
+       font-weight: 900;
+     }
+     
+     .css {
+       font-family: Arial;
+       color: purple;
+       font-weight: 500;
+     }
+    
+    .css1 {
+    border: 5px dotted black;
+    margin: 10px auto;
+    padding: 10px 10px;
+     }
+    
+     .css2 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+     }
